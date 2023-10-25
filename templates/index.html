@@ -9,9 +9,9 @@ Home page
 
 <form class="myform" action="/predict" method="POST">
   <h3>Fasting Sugar:</h3>
-  <input name="FS" type="number">  
+  <input name="FS" type="number" required>  
   <h3>Frequent urination:</h3>
-  <select name="FU">
+  <select name="FU" required>
     <option value="" disabled selected>choose Your option</option>
     <option value="1">YES</option>
     <option value="0">NO</option>
